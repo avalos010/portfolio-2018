@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/imagehover.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/loading-bar.css"/>
+    <script src="js/loading-bar.min.js" type="application/javascript"></script>  
+    <title>JLuis Avalos</title>
+</head>
+<body>
+<header id="header">
+    <img src="images/logo.png" alt="logo"  class="logo"/>
+    <li class="fa fa-bars fa-4x"></li>
+</header>
+<nav class="nav">
+        <a data-scroll href="#about">About</a> 
+        <a data-scroll href="#skills">Skills</a>
+        <a data-scroll href="#projects">Projects</a>
+        <a data-scroll href="#contact">Contact</a>
+    </nav>
+<div class="jumbotron">
+    <h1>JLuis Avalos</h1>
+    <img src="images/Selfie.jpg" alt="selfie" class="selfie"/>
+    <h3>Front End Developer</h3>
+
+    <ul>
+        <li><a class="fa fa-github fa-2x" href="https://github.com/avalos010" target="blank"></a></li>
+        <li><a class="fa fa-linkedin fa-2x" href="https://www.linkedin.com/in/jluisdev/" target="_blank"></a></li>
+    </ul>
+</div>
+<div class="container">
+    <a data-scroll href="#header" class="fa fa-arrow-up" ></a>
+    <div class="about" id="about">
+        <h3>About me</h3>
+        <img src="images/chicago-about.jpg" alt="about-me-chicago">
+        <p>Welcome to my page! My name is Jluis Avalos and I am a front end developer. I love to sit down
+             drink some coffee and find new things to build. One of the many 
+             things people overlook is simplicity, but why blame anyone if it's our nature to complicate the simple stuff
+ and simplify the complicated stuff!. I love building new things using React because once you struggled with it you start to 
+ enjoy building with it i build a lot of Web Apps locally on my computer for fun. My goal is too become a full stack developer I want to 
+ be able to learn and build with Nodejs, MongoDB, and ExpressJs along with my favorite framework React to build some really cool stuff and
+  so on and so forth.I also know how to use redux along with react but my skills on that are still novice.</p>
+    </div>
+    <div class="skills" id="skills">
+            <h3>Skills </h3>
+            <ul class="skills-ul">
+                <li>HTML:  <p class="ldBar" data-value="80" data-preset="rainbow"></p>
+        </li>
+                <li>CSS: <p class="ldBar" data-value="80" data-preset="rainbow"></p></li>
+                <li>Javascript: <p class="ldBar" data-value="79" data-preset="rainbow"></p></li>
+                <li>jQuery: <p class="ldBar" data-value="70" data-preset="rainbow"></p></li>
+                <li>React: <p class="ldBar" data-value="74" data-preset="rainbow"></p></li>
+                <li>Redux w/ React: <p class="ldBar" data-value="53" data-preset="rainbow"></p></li>
+                <li>Mocha + Chai: <p class="ldBar" data-value="50" data-preset="rainbow"></p></li>
+                <li> Nodejs: <p class="ldBar" data-value="30" data-preset="rainbow"></p></li>
+                <li>Express: <p class="ldBar" data-value="30" data-preset="rainbow"></p></li>
+            </ul>
+        </div>
+
+    <div class="projects" id="projects">
+        <h3>Projects</h3>
+        <figure class="imghvr-shutter-in-vert">
+            <img src="images/yelp-search-app.png" alt="yelp-app">
+            <figcaption>
+                <p>Yelp Search App - 
+            Make sure the backend is running the backend should load within 10 seconds due to heroku's sleeping apps.</p>
+            </figcaption>
+            <a href="#" onclick="window.open('https://yelp-search-app.herokuapp.com/');
+    window.open('https://yelp-server-api.herokuapp.com/');"></a>
+        
+        </figure>
+
+        <figure class="imghvr-shutter-in-vert">
+                <img src="images/Weather-app-react.png" alt="weather-app">
+                <figcaption>
+                    <p>Weather App - 
+               Weather App I made using React</p>
+                </figcaption>
+                <a target="_blank" href="https://weatherappreactjs.herokuapp.com"></a>
+            </figure>
+
+            <figure class="imghvr-shutter-in-vert">
+                    <img src="images/react-budget-app.png" alt="budget-app">
+                    <figcaption>
+                        <p>Budget App - 
+                   Budget App I made using React</p>
+                    </figcaption>
+                    <a target="_blank" href="https://budgetapp-react.herokuapp.com"></a>
+                </figure>
+
+                <figure class="imghvr-shutter-in-vert">
+                        <img src="images/memorygame.png" alt="memory-app">
+                        <figcaption>
+                            <p>Memory Game - 
+                       I Made the javascript part to it I used some jQuery.</p>
+                        </figcaption>
+                        <a target="_blank" href="https://avalos010.github.io/memory-game-udacity/"></a>
+                    </figure>
+
+                    <figure class="imghvr-shutter-in-vert">
+                            <img src="images/wiki-search.png" alt="wiki-app">
+                            <figcaption>
+                                <p>Wiki Search - 
+                                 I made it using the wiki search api</p>
+                            </figcaption>
+                            <a target="_blank" href="https://avalos010.github.io/memory-game-udacity/"></a>
+                        </figure>
+                   
+
+                
+    </div>
+
+    <div class="contact" id="contact">
+        <h3> Contact Me</h3>
+        <form method="POST" action="http://formspree.io/luizavalos40@gmail.com">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required/>
+            <label for="email" >Email:</label>
+            <input type="text" id="email" required/>
+            <label for="message">Message</label>
+            <textarea  id="message" required></textarea>
+            <input type="submit" value="send"/>
+        </form>
+    </div>
+</div>
+
+<footer><small>
+  2018 - Made With ❤ by JLuis Avalos
+</small></footer>
+<script src="js/smooth-scroll.js" type="application/javascript"></script>
+<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="js/script.js" type="application/javascript"></script>  
+</body>
+</html>
