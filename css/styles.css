@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url('../images/chicago.jpg') fixed;
+    background: url('../images/mobile-chicago.jpg') ;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -255,7 +255,7 @@ footer {
 
 @media (min-width: 750px) {
     body {
-     
+        background: url('../images/chicago.jpg') ;
     }
     header {
         visibility: hidden;
