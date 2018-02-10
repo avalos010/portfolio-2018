@@ -166,7 +166,7 @@ nav a:hover {
     margin: auto;
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 200px;
 }
 form input[type="text"] {
     height: 2em;
