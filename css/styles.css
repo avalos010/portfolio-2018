@@ -8,7 +8,7 @@
 
 body {
     background: url('../images/chicago.jpg') fixed;
-    background-size: cover;
+    background-size: contain;
     position: relative;
 }
 h1,h2,h3,h4 {
@@ -211,6 +211,9 @@ footer {
 }
 
 @media (min-width: 750px) {
+    body {
+        background-size: cover;
+    }
     header {
         visibility: hidden;
     }
