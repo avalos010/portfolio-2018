@@ -166,14 +166,16 @@ nav a:hover {
     margin: auto;
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 250px;
 }
 form input[type="text"] {
     height: 2em;
     border-radius: 10px;
+    width: 250px;
 }
 form textarea {
     height: 150px;
+    width: 250px;
     border-radius: 10px;
 
 }
